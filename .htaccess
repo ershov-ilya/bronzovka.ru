@@ -29,8 +29,8 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Rewrite www.domain.com -> domain.com -- used with SEO Strict URLs plugin
 RewriteCond %{HTTP_HOST} .
-RewriteCond %{HTTP_HOST} !^xn----7sbeqmgfexajfzd6a1c7e\.xn--p1ai [NC]
-RewriteRule (.*) https://xn----7sbeqmgfexajfzd6a1c7e.xn--p1ai/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^bronzovka\.su [NC]
+RewriteRule (.*) https://bronzovka.su/$1 [R=301,L]
 #
 # or for the opposite domain.com -> www.domain.com use the following
 # DO NOT USE BOTH
