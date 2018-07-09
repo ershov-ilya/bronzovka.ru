@@ -1,0 +1,39 @@
+<style type="text/css">
+	/* Layout ******************/
+	* {	margin:0; padding:0; border:0; }
+	body { margin:0; padding:0; }
+	#header, #menu, #content, #footer, .graf, .index { float:left; clear: both; width: 100%; }
+	.pix_index, .pix_index_b { float: left; width: 20%; padding: 10px; }
+	.pix_index_b { width: 30%; }
+	.pix_left, .pix_right, .pix_left_small, .pix_right_small { float: left; width: 40%; padding-top: 30px; padding-bottom: 10px; text-align: center;}
+	.pix_right, .pix_right_small { float: right; }
+	.pix_left_small, .pix_right_small { width: 20% }
+	h1, h2, h3, h4 { margin:0; padding: 20px 30px 0px 30px; }	
+	p { margin:0; padding: 5px 30px 5px 30px; }	
+	.graf p { display : block; float:right; width: 40%; }
+	#header h1 { padding-left: 30px; }
+	#menu ul { clear: left; margin: 0px; padding: 0px; }
+	#menu li { float: left; list-style:none; }
+	#menu li, #footer p { padding: 10px 0px 10px 30px; }
+	/* Fonts *******************/
+	body, td, a { font: 100% Georgia, Times New Roman; }
+	h1, h2, h3, h4, strong { font: 110% Verdana, Arial, Helvetica; }
+	h1 { font-size: 14pt; }
+	h2 { font-size: 12pt; }
+	h3 { font-size: 100%; }
+	h4, strong { font-size: 90%; text-decoration : underline; }
+	.pix_left p, .pix_right p, .pix_left_small p, .pix_right_small p { font: 80% Verdana, Arial, Helvetica; }
+	.pix_left a, .pix_right a, .pix_left_small a, .pix_right_small a { text-decoration: none; }
+	.graf p { font-style: italic; }
+	#menu, #menu li, #menu p, #menu a { font:10pt  Verdana, Arial, Helvetica; }
+	/*
+	 #menu li a  { text-decoration: none; }
+	#menu li a:hover { text-decoration: underline; }
+	*/
+	/* Colors ******************/
+	body { background-color: #FFFFFF; color: #000;  }
+	#menu, #footer { background-color: #CEFFCE; }
+	.pix_left a, .pix_right a, .pix_left_small a, .pix_right_small a { color: #000; }
+	/* Misc ********************/
+	img { margin:0; padding: 0px 20px 0px 20px; border:0; }
+</style>
